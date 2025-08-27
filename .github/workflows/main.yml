@@ -8,7 +8,6 @@ jobs:
     bulid:
         runs-on: ubuntu-latest
         steps:
-            - name: "printing path"
-              run: pwd
-            - name: "printing name"
-              run: echo  dai         
+            - name: "printing files"
+              run: ls
+                   
