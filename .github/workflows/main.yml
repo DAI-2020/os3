@@ -1,13 +1,16 @@
 on :
     push:
         branches:
-            -main
+            -master 
 
 
 jobs:
     bulid:
         runs-on: ubuntu-latest
         steps:
-            - name: "printing files"
+            - name: "printing files befor "
               run: ls
-                   
+            - uses: actions/checkout@v3
+         
+            - name: "printing files befor "
+              run: ls
